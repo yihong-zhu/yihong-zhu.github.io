@@ -15,11 +15,6 @@ var addressPoints = [
     -117.825981
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
     "Asymmetric Couplings in a Multi-flame Laminar Rijke Tube<br />Western States Section Combustion Institute 2023 Fall Technical Meeting; Northridge, CA, USA",
     34.2345615,
     -118.5369316
