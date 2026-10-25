@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Aeronautics & Astronautics at Stanford University, advised by Prof. Charbel Farhat in the Farhat Research Group. My research is in computational mechanics with a focus on reduced order modeling and digital twins. 
+I am a Ph.D. student in Aeronautics & Astronautics at Stanford University, advised by Prof. [Charbel Farhat](https://en.wikipedia.org/wiki/Charbel_Farhat) in the [Farhat Research Group](https://web.stanford.edu/group/frg/). My research is in computational mechanics with a focus on reduced order modeling and digital twins. 
 
 Before Stanford, I received my B.S. in Aerospace Engineering with a minor in Mathematics from UC San Diego in 2025. 
 
