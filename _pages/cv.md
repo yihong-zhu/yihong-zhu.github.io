@@ -9,6 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+<p><a href="{{ base_path }}/files/Yihong_Zhu_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download CV (PDF)</a></p>
+
+<object data="{{ base_path }}/files/Yihong_Zhu_CV.pdf" type="application/pdf" width="100%" height="1100px" style="border: 1px solid var(--global-border-color);">
+  <p>Your browser can't display the PDF here. <a href="{{ base_path }}/files/Yihong_Zhu_CV.pdf">Download the CV instead.</a></p>
+</object>
+
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
