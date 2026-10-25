@@ -8,6 +8,7 @@ venue: "AIAA SCITECH 2026 Forum"
 date: 2026-01-12
 location: "Orlando, FL, USA"
 excerpt: "**Y. Zhu**, S. Sato, O. Schmidt"
+paperurl: 'https://arc.aiaa.org/doi/10.2514/6.2026-2702'
 ---
 
 **Y. Zhu**, S. Sato, O. Schmidt. AIAA SCITECH 2026 Forum, January 12–16, 2026. [paper](https://arc.aiaa.org/doi/10.2514/6.2026-2702)

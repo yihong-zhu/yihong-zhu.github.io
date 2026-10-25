@@ -224,16 +224,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false # plain list only: no individual pages
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false # plain list only: no individual pages
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false # plain list only: no individual pages
     permalink: /:collection/:path/
 
 
