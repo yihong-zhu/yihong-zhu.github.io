@@ -10,4 +10,4 @@ location: "Orlando, FL, USA"
 excerpt: "**Y. Zhu**, S. Sato, O. Schmidt"
 ---
 
-**Y. Zhu**, S. Sato, O. Schmidt. AIAA SCITECH 2026 Forum, January 12–16, 2026.
+**Y. Zhu**, S. Sato, O. Schmidt. AIAA SCITECH 2026 Forum, January 12–16, 2026. [paper](https://arc.aiaa.org/doi/10.2514/6.2026-2702)
