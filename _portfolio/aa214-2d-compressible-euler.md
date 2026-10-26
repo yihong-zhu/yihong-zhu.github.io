@@ -4,6 +4,7 @@ excerpt: "A 2D vertex-based finite volume solver for the compressible Euler equa
 collection: portfolio
 share: false
 comments: false
+published: false # hidden for now; delete this line to show the entry again
 ---
 
 For Stanford's AA214: Numerical Methods for Compressible Flows (Winter 2026), I wrote a 2D vertex-based finite volume solver for the compressible Euler equations and applied it to two problems: an unsteady shock tube and steady supersonic flow over a ramp.
