@@ -1,0 +1,36 @@
+---
+title: "AA214 Class - 2D Compressible Euler with Finite Volume"
+excerpt: "A 2D vertex-based finite volume solver for the compressible Euler equations, written for Stanford AA214 (Numerical Methods for Compressible Flows), Winter 2026.<br/><img src='/images/portfolio/aa214/shock-tube.gif' alt='Shock tube simulation: pressure, density, and velocity fields'>"
+collection: portfolio
+share: false
+comments: false
+---
+
+For Stanford's AA214: Numerical Methods for Compressible Flows (Winter 2026), I wrote a 2D vertex-based finite volume solver for the compressible Euler equations and applied it to two problems: an unsteady shock tube and steady supersonic flow over a ramp.
+
+Shock tube (Homework 7)
+======
+
+The tube starts with two fluid states separated at x = 0:
+
+| | Pressure p (N/m²) | Density ρ (kg/m³) | u (m/s) | v (m/s) |
+|---|---|---|---|---|
+| Left (L) | 10⁵ | 1 | 100 | 0 |
+| Right (R) | 10⁴ | 0.125 | 50 | 0 |
+
+![Shock tube: evolution of pressure, density, and u and v velocity](/images/portfolio/aa214/shock-tube.gif)
+
+Supersonic ramp (Final exam)
+======
+
+Free-stream Mach number M∞ = 2 over an 8° ramp, marched to steady state with local time stepping. I compared two 60 × 20 grids: a uniform one (r = 1) and one stretched toward the outlet (r = 0.1).
+
+![Computational grids for r = 1 and r = 0.1](/images/portfolio/aa214/ramp-grids.png)
+
+**Uniform grid (r = 1):** converged to a residual tolerance of 2·10⁻⁵ in 21,962 iterations (259.1 s wall-clock time).
+
+![Density, pressure, Mach number, and convergence history on the r = 1 grid](/images/portfolio/aa214/ramp-solution-r1.png)
+
+**Stretched grid (r = 0.1):** converged to the same tolerance in 20,652 iterations (231.4 s wall-clock time).
+
+![Density, pressure, Mach number, and convergence history on the r = 0.1 grid](/images/portfolio/aa214/ramp-solution-r01.png)
