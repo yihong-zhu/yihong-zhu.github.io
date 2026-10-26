@@ -26,8 +26,8 @@
           alt="">
       </div>
     {% endif %}
-    <h3 class="archive__item-title" itemprop="headline">
-      {% assign post_collection = site.collections | where: "label", post.collection | first %}
+    {% assign post_collection = site.collections | where: "label", post.collection | first %}
+    <h3 class="archive__item-title{% if post_collection.output == false %} archive__item-title--plain{% endif %}" itemprop="headline">
       {% if post_collection.output == false %}
         {% if post.link %}<a href="{{ post.link }}">{{ title }}</a>{% else %}{{ title }}{% endif %}
       {% elsif post.link %}

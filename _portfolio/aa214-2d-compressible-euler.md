@@ -1,6 +1,6 @@
 ---
 title: "AA214 Class - 2D Compressible Euler with Finite Volume"
-excerpt: "A 2D vertex-based finite volume solver for the compressible Euler equations, written for Stanford AA214 (Numerical Methods for Compressible Flows), Winter 2026.<br/><img src='/images/portfolio/aa214/shock-tube.gif' alt='Shock tube simulation: pressure, density, and velocity fields'><br/><img src='/images/portfolio/aa214/ramp-solution-r1.png' alt='Steady Mach 2 flow over an 8° ramp: density, pressure, Mach number, and convergence history'>"
+excerpt: "A 2D vertex-based finite volume solver for the compressible Euler equations, written for Stanford AA214 (Numerical Methods for Compressible Flows), Winter 2026.<br/><img src='/images/portfolio/aa214/shock-tube.gif' alt='Shock tube simulation: pressure, density, and velocity fields'><br/><br/><img src='/images/portfolio/aa214/ramp-solution-r1.png' alt='Steady Mach 2 flow over an 8° ramp: density, pressure, Mach number, and convergence history'>"
 collection: portfolio
 share: false
 comments: false

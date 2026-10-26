@@ -82,6 +82,11 @@
   .archive__item-title {
     text-decoration: underline;
   }
+
+  /* titles that aren't links (collections with output: false) */
+  .archive__item-title--plain {
+    text-decoration: none;
+  }
 }
 
 
