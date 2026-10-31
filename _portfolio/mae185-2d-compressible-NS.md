@@ -16,4 +16,4 @@ Shock Induced by Leading Edge
 
 Shock-Boundary-Layer Interaction
 ======
-![Shock-boundary-layer interaction](/images/portfolio/mae185/185_shockInteraction_BLInteraction.png)
+![Shock-boundary-layer interaction](/images/portfolio/mae185/185_shockInteraction_BLInteraction.jpg)
