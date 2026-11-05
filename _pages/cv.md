@@ -9,17 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-<p><a href="{{ base_path }}/files/Yihong_Zhu_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download CV (PDF)</a></p>
+<p><a href="{{ base_path }}/files/Yihong_Zhu_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download Resume (PDF)</a></p>
 
 <object data="{{ base_path }}/files/Yihong_Zhu_CV.pdf" type="application/pdf" width="100%" height="1100px" style="border: 1px solid var(--global-border-color);">
-  <p>Your browser can't display the PDF here. <a href="{{ base_path }}/files/Yihong_Zhu_CV.pdf">Download the CV instead.</a></p>
+  <p>Your browser can't display the PDF here. <a href="{{ base_path }}/files/Yihong_Zhu_CV.pdf">Download the Resume instead.</a></p>
 </object>
 
-Education
+<!-- Education
 ======
 * Ph.D in Aeronautics & Astronautics, Stanford University, 2030 (expected)
-<!-- * M.S. in Jekyll, GitHub University, 2014 -->
-* B.S. in Aerospace Engineering, University of California - San Diego, 2025
+* B.S. in Aerospace Engineering, University of California - San Diego, 2025 -->
 
 <!-- Work experience
 ======
@@ -47,7 +46,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3 -->
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -63,7 +62,7 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 <!-- Service and leadership
 ======

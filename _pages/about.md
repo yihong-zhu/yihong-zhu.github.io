@@ -11,6 +11,12 @@ I am a Ph.D. student in Aeronautics & Astronautics at Stanford University, advis
 
 Before Stanford, I received my B.S. in Aerospace Engineering with a minor in Mathematics from UC San Diego in 2025. 
 
+Education
+======
+* Ph.D in Aeronautics & Astronautics, Stanford University, 2030 (expected)
+<!-- * M.S. in Jekyll, GitHub University, 2014 -->
+* B.S. in Aerospace Engineering, University of California - San Diego, 2025
+
 Research Interests
 ======
 - Computational mechanics (fluid and structural mechanics)
