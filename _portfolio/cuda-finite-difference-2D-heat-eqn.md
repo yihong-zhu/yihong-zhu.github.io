@@ -16,7 +16,7 @@ Space is discretized with the standard 5-point Laplacian and time with forward E
 
 $$u_{i,j}^{n+1} = u_{i,j}^n + \gamma \left(u_{i+1,j}^n + u_{i-1,j}^n + u_{i,j+1}^n + u_{i,j-1}^n - 4u_{i,j}^n\right), \quad \gamma = \frac{\alpha \Delta t}{h^2}$$
 
-The time step is chosen from the Von Neumann stability condition, which requires $$\gamma \leq 1/4$$ (I use $$\gamma = 0.2$$).
+The time step is chosen from the Von Neumann stability condition, which requires $$\gamma \leq 1/4$$. Here I use $$\gamma = 0.2$$.
 
 ![Temperature field](/images/portfolio/cuda-heat/heat2d_field.png)
 
